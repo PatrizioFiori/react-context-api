@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavBar ul {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    list-style: none;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.links {
+    text-decoration: none;
+
+}
+
+.active {
+    color: red;
+}
